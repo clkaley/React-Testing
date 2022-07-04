@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Videos 1 Items Correctly 1`] = `
+<div
+  className="App"
+>
+  <h3>
+    jest
+  </h3>
+</div>
+`;
+
+exports[`Videos All Items Correctly 1`] = `
+<div
+  className="App"
+>
+  <h3>
+    youtube
+  </h3>
+  <h3>
+    udemy
+  </h3>
+  <h3>
+    tutor
+  </h3>
+</div>
+`;
+
+exports[`Videos Empty 1`] = `
+<h1>
+  Sorry, no videos item found 
+</h1>
+`;

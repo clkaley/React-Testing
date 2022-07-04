@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: pink;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.container >div{
+    flex: 1;
+}
+
+.nav-container{
+   text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   padding-left: 23%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.list-item{
+    cursor: pointer;
+}
+.list-item:hover{
+    color:powderblue;
+}
+
+.nav-link{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:black; 
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+   
+}
+
+.nav-link:hover{
+    color:powderblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
